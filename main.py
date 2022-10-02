@@ -30,7 +30,7 @@ print(ProductPrice)
 print (ProductName, ProductPrice)
 print("Your",ProductName, "costs £",ProductPrice)
 
-#User input
+#User input: City 
 name = input("What is your name?")
 print("Hello" + name)
 
@@ -40,7 +40,19 @@ print("Hello",name, "you will be", age +1, "next year")
 #This code does not work - error message. Define Variable as an integar 
 #correct code below: age = int(input("What is your age?"))
 
-
+#User input 2: Phone 
 ProductName = input ("What is your phone?")
 ProductPrice = int(input ("What is your phone worth?"))
 print ("Your", ProductName, "will be worth £", ProductPrice -100, "next year")
+
+#User input 3: Weather 
+weather = input ("What is the weather like? ")
+if weather == "raining":
+  print ("Take an umbrella")
+elif weather == "snowing":
+  print ("Wear gloves!")
+elif weather == "sunny":
+  print ("no need for a coat today!")
+else:
+  print ("wear a coat!")
+  
