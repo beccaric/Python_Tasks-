@@ -48,11 +48,22 @@ print ("Your", ProductName, "will be worth £", ProductPrice -100, "next year")
 #User input 3: Weather 
 weather = input ("What is the weather like? ")
 if weather == "raining":
-  print ("Take an umbrella")
+  print ("Take an umbrella!")
 elif weather == "snowing":
   print ("Wear gloves!")
 elif weather == "sunny":
-  print ("no need for a coat today!")
+  print ("No need for a coat today!")
 else:
-  print ("wear a coat!")
-  
+  print ("Wear a coat!")
+#double equals sign (==) means the same as 
+
+#Guess my number!
+import random #imports the random library 
+myname=input("Please enter your name?:")
+number=random.randint (1,5) #generates number between 1 and 5
+print ("Well ",myname, "I am thinking of a number between 1 and 5")
+guess= int(input("Take a guess :")) 
+if guess == number:
+  print ("Well done, ",myname,"You guessed my number")
+else:
+  print ("Incorrect, better luck next time!")
