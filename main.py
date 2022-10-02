@@ -18,4 +18,14 @@ stock = 5
 print (price)
 print (stock)
 print (price + stock)
+print (price)
 #only use speech marks when you want to print out some text, no speech marks if you want the answer to something 
+
+#Assigning a Variable
+ProductName ="iPhone"
+ProductPrice = 450
+
+print(ProductName)
+print(ProductPrice)
+print (ProductName, ProductPrice)
+
