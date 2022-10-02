@@ -28,4 +28,5 @@ ProductPrice = 450
 print(ProductName)
 print(ProductPrice)
 print (ProductName, ProductPrice)
+print("Your",ProductName, "costs £",ProductPrice)
 
