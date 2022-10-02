@@ -39,3 +39,8 @@ age = int(input("What is your age?"))
 print("Hello",name, "you will be", age +1, "next year")
 #This code does not work - error message. Define Variable as an integar 
 #correct code below: age = int(input("What is your age?"))
+
+
+ProductName = input ("What is your phone?")
+ProductPrice = int(input ("What is your phone worth?"))
+print ("Your", ProductName, "will be worth £", ProductPrice -100, "next year")
