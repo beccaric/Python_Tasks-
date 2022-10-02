@@ -30,3 +30,12 @@ print(ProductPrice)
 print (ProductName, ProductPrice)
 print("Your",ProductName, "costs £",ProductPrice)
 
+#User input
+name = input("What is your name?")
+print("Hello" + name)
+
+city = input("What city do you live in?")
+age = int(input("What is your age?"))
+print("Hello",name, "you will be", age +1, "next year")
+#This code does not work - error message. Define Variable as an integar 
+#correct code below: age = int(input("What is your age?"))
